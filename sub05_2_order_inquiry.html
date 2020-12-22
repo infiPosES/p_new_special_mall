@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="특별한 쇼핑몰">
+  <meta property="og:description" content="특별한 쇼핑몰 홈페이지">
+  <meta property="og:image" content="./images/logo.png">
+  <meta property="og:url" content="http://specialshop2020.cafe24.com/">
+
+  <link rel="stylesheet" type="text/css" href="./css/icon/xeicon.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/aos.css">
+  <link rel="stylesheet" type="text/css" href="./css/datepicker.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+  <script src="./js/datepicker.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/index.js"></script>
+
+  <title>특별한 쇼핑몰</title>
+</head>
+<body>
+  <!-- wrap -->
+  <div id="wrap">
+    <!-- header -->
+    <header id="header">
+      <!-- nav:gnb -->
+      <nav class="gnb"> 
+        <div class="clear gnbbox-top">
+          <div class="container">
+            <ul class="topgnb-menu">
+              <li><a href="#" class="topgnb-menu-link">특별한쇼핑</a></li>
+              <li><a href="#" class="topgnb-menu-link">특별한골프</a></li>
+              <li><a href="#" class="topgnb-menu-link">특별한여행</a></li>
+            </ul> 
+              <ul class="sign">
+                <li><a href="#" class="topgnb-menu-link">로그인</a></li>
+                <li><a href="#" class="topgnb-menu-link link-signin">회원가입</a></li>
+              </ul>
+          </div> 
+        </div>
+        <div class="clear gnbbox-bottom">
+          <div class="container">
+          <a href="#" class="logo"><img src="./img/logo.png" alt="특별한쇼핑몰" /></a>       
+          <ul class="botgnb-menu">
+            <li><a href="#" class="botgnb-menu-link">회사소개</a></li>
+            <li><a href="#" class="botgnb-menu-link">브랜드</a></li>
+            <li><a href="#" class="botgnb-menu-link">회원이익공유</a></li>
+            <li><a href="#" class="botgnb-menu-link">고객지원</a></li>
+            <li><a href="#" class="botgnb-menu-link">홍보</a></li>
+            <li><a href="#" class="botgnb-menu-link">가맹점안내</a></li>   
+          </ul>
+          <div class="allmenu">전체메뉴<i class="xi-bars"></i></div>  
+          </div>
+        </div>
+      </nav> 
+    </header><!-- header end -->
+	
+    <div class="container">
+      <h1 class="intCom-tit">마이페이지</h1>
+      <nav class="clear lnb">
+        <ul class="intCom-lnb">
+          <li><a href="#" class="intCom-lnb-link">주문검색</a></li>
+          <li><a href="#" class="intCom-lnb-link">주문상세 조회</a></li>
+        </ul>
+      </nav>
+      <section class="intCom">
+        <div class="clear intCon-titB">
+          <h2 class="intCom-tit">주문상세조회</h2>
+          <ul class="clear intCom-loca">
+            <li><a href="#" class="intCom-loca-link"><img src="./img/home.jpg" alt="home"/></a></li>
+            <li><a href="#" class="intCom-loca-link">마이페이지</a></li>
+            <li><a href="#" class="intCom-loca-link">주문관리</a></li>
+            <li><a href="#" class="intCom-loca-link">주문상세조회</a></li>
+          </ul>
+        </div>
+        <div class="inquiry-part">
+          <div class="clear regist-part-titB">
+            <h2 class="regist-part-tit inquiry-part-tit">주문정보</h2>
+          </div>
+          <table class="regist-part-tab order-part-tab">
+            <tbody>
+              <tr>
+                <th>주문번호</th>
+                <td>
+                  <div class="clear reg-addB">
+                    <input type="text" class="addB-address" id="" placeholder="">
+                    <input type="button" class="addB-findbtn" value="주문번호 찾기">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>공제번호</th>
+                <td>
+                  <p>200307M02765604</p>
+                </td>
+              </tr>
+              <tr>
+                <th>주문일자</th>
+                <td>
+                  <p>2020.03.17</p>
+                </td>
+              </tr>
+              <tr>
+                <th>회원명(회원번호)</th>
+                <td>
+                  <p>홍길동</p>
+                </td>
+              </tr>
+              <tr>
+                <th>유형</th>
+                <td>
+                  <p>소비매출</p>
+                </td>
+              </tr>
+              <tr>
+                <th>경로</th>
+                <td>
+                  <p>마이 오피스</p>
+                </td>
+              </tr>
+              <tr class="order-str-tr">
+                <th>주문금액</th>
+                <td>
+                  <p class="order-price">176,600</p>
+                </td>
+              </tr>
+              <tr class="order-str-tr">
+                <th>주문 Point</th>
+                <td>
+                  <p class="order-point">84,400</p>
+                </td>
+              </tr>
+          </tbody>
+          </table>
+          <div class="btnB">
+            <a href="#" class="btnB-btn btn-prev">주문취소</a>
+            <a href="#" class="btnB-btn btn-prev">거래명세서</a>
+            <a href="#" class="btnB-btn btn-prev">청약철회신청서</a>
+          </div>
+        </div>
+        <div class="order-tabB">
+          <div class="clear regist-part-titB">
+            <h2 class="regist-part-tit inquiry-part-tit">주문정보</h2>
+          </div>
+          <table class="order-tabB-tab">
+            <thead>
+              <tr>
+                <th>주문금액</th>
+                <th>주문 Point</th>
+                <th>현금</th>
+                <th>카드</th>
+                <th>무통장</th>
+                <th>기타</th>
+                <th>합계금액</th>
+                <th>미결금액</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="order-tabB">
+          <div class="clear regist-part-titB">
+            <h2 class="regist-part-tit inquiry-part-tit">결제 상세정보</h2>
+          </div>
+          <table class="order-tabB-tab">
+            <thead>
+              <tr>
+                <th>결제유형</th>
+                <th>결제여부</th>
+                <th>결제금액</th>
+                <th>입금계좌</th>
+                <th>입금자명</th>
+                <th>입금만료일</th>
+                <th>카드사명</th>
+                <th>카드번호</th>
+                <th>소유주명</th>
+                <th>결제일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="order-tabB">
+          <div class="clear regist-part-titB">
+            <h2 class="regist-part-tit inquiry-part-tit">배송정보</h2>
+          </div>
+          <table class="order-tabB-tab">
+            <thead>
+              <tr>
+                <th>배송순번</th>
+                <th>수령자</th>
+                <th>전화번호</th>
+                <th>휴대폰번호</th>
+                <th>우편번호</th>
+                <th class="delivery-part">주소</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="order-tabB">
+          <div class="clear regist-part-titB">
+            <h2 class="regist-part-tit inquiry-part-tit">주문상품정보</h2>
+          </div>
+          <table class="order-tabB-tab">
+            <thead>
+              <tr>
+                <th>배송순번</th>
+                <th>구분</th>
+                <th>상품코드</th>
+                <th>상품명</th>
+                <th>카테고리</th>
+                <th>수량</th>
+                <th>금액</th>
+                <th>Point</th>
+                <th>송장번호</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div> 
+      </section>
+    </div>
+    <section class="clear guide">
+          <div class="container">
+            <div class="guide-notice">
+              <h3 class="guide-tit">공지사항</h3>
+              <ul class="guide-notice-list">
+                <li><a href="#" class="notice-listB-link">- 더페임로션 상품설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 올리브 리얼스킨케어 설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 이니스프리노세범 설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 베리떼 느와르 로션 설명서</a></li>
+              </ul>
+            </div>
+            <div class="guide-iconB">
+              <h3 class="guide-tit">특별한 쇼핑몰가이드</h3>
+              <ul class="clear guide-notice-iconB">
+                <li><a href="#" class="notice-listB-link">
+                  <img src="./img/guide_icon01.png" alt="" />
+                  <p class="listB-link-tit">1:1문의하기</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="./img/guide_icon02.png" alt="" />
+                  <p class="listB-link-tit">국내유통&마케팅</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="./img/guide_icon03.png" alt="" />
+                  <p class="listB-link-tit">해외유통 및 OEM</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="./img/guide_icon04.png" alt="" />
+                  <p class="listB-link-tit">적립금정책</p>
+                </a></li>
+              </ul>
+            </div>
+            <div class="guide-center">
+              <h3 class="guide-tit">CUSTOMER CENTER</h3>
+              <a class="guide-center-tel" href="tel:1234-5678">1234-5678</a>
+              <div class="guide-center-working">
+                평일 : AM 7:00 ~ PM 6:00<br/>
+                토요일 AM 7:00~PM 3:00
+                <p>일요일 / 공휴일 휴무<br/>
+                배송있는 공휴일은 운영</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+          <div class="foot_lef">
+              <ul class="clear foot_linkB">
+                <li>
+                  <a href="#">개인정보보호방침</a>
+                </li>
+                <li>
+                  <a href="#">이용약관</a>
+                </li>
+                <li>
+                  <a href="#">회원약관</a>
+                </li> 
+                <li>
+                  <a href="#">가맹점안내</a>
+                </li> 
+              </ul>
+            <div class="addressB">
+              <div class="f_logo">(주)특별한 쇼핑몰</div>
+              <address>
+                대표 :  TEL : <a href="tel:1833-5002">1833-5002</a>  
+                FAX : 070-8255-1155  
+                주소 : 서울특별시 중구 후암로 110, 서울시티타워 23층
+              </address>
+              <address>
+                사업자등록번호 : 535-86-00058    
+                통신판매업신고번호 : 제2015-서울중구-1005호    
+                정보관리책임자 : 이종우
+              </address>
+              <address>Copyright&copy;2020 특별한쇼핑몰. All Rights Reserved.</address>
+            </div> 
+          </div>
+          <div class="snsBox">
+            <a href="#" class="snsBox-link">
+              <img src="./img/footer_link_icon01.png" alt="" />
+            </a>
+            <a href="#" class="snsBox-link">
+              <img src="./img/footer_link_icon02.png" alt="" />
+            </a>
+            <a href="#" class="snsBox-link">
+              <img src="./img/footer_link_icon03.png" alt="" />
+            </a>
+          </div>  
+          <!--div class="f_family">
+            <select name="" id="" class="f_family_sel">
+              <option value="">FAMILY SITE</option>
+            </select >
+          </div--> 
+      </div>
+    </footer><!-- footer end -->
+  </div><!-- wrap end-->
+  
+  <!-- 팝업창 -->
+  <div class="popup">
+    <div class="popup_cont">
+        <div class="v1_popup_cont">
+        </div>
+    </div>
+  </div>
+
+  <script>
+    $('[data-toggle="datepicker"]').datepicker();
+  </script>
+</body>
+</html>

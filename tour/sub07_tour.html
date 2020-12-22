@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="imagetoolbar" content="no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="특별한 쇼핑몰">
+  <meta property="og:description" content="특별한 쇼핑몰 홈페이지">
+  <meta property="og:image" content="./images/logo.png">
+  <meta property="og:url" content="http://specialshop2020.cafe24.com/">
+
+  <link rel="stylesheet" type="text/css" href="../css/icon/xeicon.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <link rel="stylesheet" type="text/css" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/aos.css">
+  <link rel="stylesheet" type="text/css" href="../css/datepicker.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <script src="../js/jquery-3.5.1.min.js"></script>
+  <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+  <script src="../js/datepicker.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/index.js"></script>
+
+  <title>특별한 쇼핑몰</title>
+</head>
+<body>
+  <!-- wrap -->
+  <div id="wrap">
+    <!-- header -->
+    <header id="header">
+      <!-- nav:gnb -->
+      <nav class="gnb"> 
+        <div class="clear gnbbox-top">
+          <div class="container">
+            <ul class="topgnb-menu">
+              <li><a href="#" class="topgnb-menu-link t-gnblink">특별한쇼핑</a></li>
+              <li><a href="#" class="topgnb-menu-link t-gnblink">특별한골프</a></li>
+              <li><a href="#" class="topgnb-menu-link">특별한여행</a></li>
+            </ul> 
+              <ul class="sign">
+                <li><a href="#" class="topgnb-menu-link">로그인</a></li>
+                <li><a href="#" class="topgnb-menu-link link-signin">회원가입</a></li>
+                <li class="tour-res-li"><a href="#" class="tour-resBtn">예약안내</a></li>
+              </ul>
+          </div> 
+        </div>
+        <div class="clear gnbbox-bottom">
+          <div class="container">
+          <a href="#" class="logo"><img src="../img/logo.png" alt="특별한쇼핑몰" /></a>       
+          <ul class="botgnb-menu">
+            <li><a href="#" class="botgnb-menu-link">국내여행</a></li>
+            <li><a href="#" class="botgnb-menu-link">해외여행</a></li>
+            <li><a href="#" class="botgnb-menu-link">글램핑/카라반</a></li>
+            <li><a href="#" class="botgnb-menu-link">체험/테마</a></li>
+            <li><a href="#" class="botgnb-menu-link">가족여행</a></li>
+            <li><a href="#" class="botgnb-menu-link">효도여행</a></li>   
+            <li><a href="#" class="botgnb-menu-link">단체여행</a></li>   
+          </ul>
+          <div class="allmenu">전체메뉴<i class="xi-bars"></i></div>  
+          </div>
+        </div>
+      </nav> 
+    </header><!-- header end -->
+    <section class="t-banner">
+      <img src="../img/tour_main_banner.jpg" alt="" />
+    </section>
+    <section class="t-notice">
+      <div class="clear container">
+        <aside class="swiper-container t-noti-banner">
+          <div class="swiper-wrapper">
+            <ul class="swiper-slide clear noti-banner-list">
+              <li class="nType">NOTICE</li>
+              <li class="nTitle">[공고] 특별한 쇼핑몰L 공식행사 잠정 보류 안내</li>
+              <li class="nDate">2020-03-10</li>
+              <li class="nGoBtn">
+                <a href="#">
+                  <i class="xi-plus-thin"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="swiper-slide clear noti-banner-list">
+              <li class="nType">NOTICE</li>
+              <li class="nTitle">[공고] 특별한 쇼핑몰L 공식행사 잠정 보류 안내2</li>
+              <li class="nDate">2020-03-12</li>
+              <li class="nGoBtn">
+                <a href="#">
+                  <i class="xi-plus-thin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="t-noti-searchB">
+          <input type="text" class="noti-searchB-txtB" placeholder="검색어를 입력하세요"/>
+          <a class="noti-searchB-link" href="#">
+            <img src="../img/search_icon.png" alt="검색" /> 
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="t-searchB">
+      <div class="container">
+        <div class="t-searchB-wrap">
+          <div class="t-searchB-searB">
+            <input type="text" class="searB-txt" placeholder="여행지명을 입력하세요"/>
+            <a class="searB-link" href="#">
+              <img src="../img/search_icon.png" alt="검색" /> 
+            </a>
+          </div>
+          <div class="t-searchB-btnB">
+            <button class="searchB-btnB-btn">전체</button>
+            <button class="searchB-btnB-btn">서울</button>
+            <button class="searchB-btnB-btn">경기</button>
+            <button class="searchB-btnB-btn">강원</button>
+            <button class="searchB-btnB-btn">충청</button>
+            <button class="searchB-btnB-btn">전라</button>
+            <button class="searchB-btnB-btn">제주</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="t-itemB">
+      <div class="container">
+        <div class="clear itemB-wrap">
+          <div class="itemB-wrap-list">
+            <div class="list-thumbnail">
+              <img src="../img/t_item01.jpg" alt="" />
+            </div>
+            <div class="list-descB">
+              <p class="list-local">강원</p>
+              <div class="list-descB-str"><span>BEST 1</span></div>
+              <p class="list-descB-type">체험/테마</p>
+              <h3 class="list-descB-tit">평창 별궁한옥</h3>
+              <p class="list-descB-desc">고요한 강이 흐르는 정원과 전통음식을
+                체계적으로 배우고 맛볼 수 있는 곳
+              </p>
+            </div>
+            <div class="clear list-adB">
+              <address class="list-adB-add">강원도 평창군 용평면 금당계곡로 2010-13 
+              </address>
+              <p class="list-adB-fbLink"></p>
+            </div>
+          </div>
+          <div class="itemB-wrap-list">
+            <div class="list-thumbnail">
+              <img src="../img/t_item02.jpg" alt="" />
+            </div>
+            <div class="list-descB">
+              <p class="list-local">강원</p>
+              <div class="list-descB-str"><span>BEST 1</span></div>
+              <p class="list-descB-type">체험/테마</p>
+              <h3 class="list-descB-tit">평창 별궁한옥</h3>
+              <p class="list-descB-desc">고요한 강이 흐르는 정원과 전통음식을
+                체계적으로 배우고 맛볼 수 있는 곳
+              </p>
+            </div>
+            <div class="clear list-adB">
+              <address class="list-adB-add">강원도 평창군 용평면 금당계곡로 2010-13 
+              </address>
+              <p class="list-adB-fbLink"></p>
+            </div>
+          </div>
+          <div class="itemB-wrap-list">
+            <div class="list-thumbnail">
+              <img src="../img/t_item03.jpg" alt="" />
+            </div>
+            <div class="list-descB">
+              <p class="list-local">강원</p>
+              <div class="list-descB-str"><span>BEST 1</span></div>
+              <p class="list-descB-type">체험/테마</p>
+              <h3 class="list-descB-tit">평창 별궁한옥</h3>
+              <p class="list-descB-desc">고요한 강이 흐르는 정원과 전통음식을
+                체계적으로 배우고 맛볼 수 있는 곳
+              </p>
+            </div>
+            <div class="clear list-adB">
+              <address class="list-adB-add">강원도 평창군 용평면 금당계곡로 2010-13 
+              </address>
+              <p class="list-adB-fbLink"></p>
+            </div>
+          </div>
+          <div class="itemB-wrap-list">
+            <div class="list-thumbnail">
+              <img src="../img/t_item04.jpg" alt="" />
+            </div>
+            <div class="list-descB">
+              <p class="list-local">강원</p>
+              <div class="list-descB-str"><span>BEST 1</span></div>
+              <p class="list-descB-type">체험/테마</p>
+              <h3 class="list-descB-tit">평창 별궁한옥</h3>
+              <p class="list-descB-desc">고요한 강이 흐르는 정원과 전통음식을
+                체계적으로 배우고 맛볼 수 있는 곳
+              </p>
+            </div>
+            <div class="clear list-adB">
+              <address class="list-adB-add">강원도 평창군 용평면 금당계곡로 2010-13 
+              </address>
+              <p class="list-adB-fbLink"></p>
+            </div>
+          </div>
+        </div>
+        <!-- paging 수정 -->
+        <!-- div class="paging_wrap">
+          <div class="paging">
+            <div class="page_prev">
+              <a class="page_prev_link" href="#">
+                <i class="fas fa-angle-double-left"></i>
+              </a>
+              <a class="page_prev_link" href="#">			
+                <i class="fas fa-angle-left"></i>
+              </a>
+            </div>
+            <div class="page_num">
+              <a href="#" class="page_num_link on">1</a>
+              <a href="#" class="page_num_link">2</a>
+              <a href="#" class="page_num_link">3</a>
+              <a href="#" class="page_num_link">4</a>
+              <a href="#" class="page_num_link">5</a>
+            </div>
+            <div class="page_next">
+              <a href="#" class="page_next_link">
+                <i class="fas fa-angle-right"></i>
+              </a>
+              <a href="#" class="page_next_link">
+                <i class="fas fa-angle-double-right"></i>
+              </a>
+            </div>
+          </div>
+        </div -->
+    </section>
+    <section class="clear guide">
+          <div class="container">
+            <div class="guide-notice">
+              <h3 class="guide-tit">공지사항</h3>
+              <ul class="guide-notice-list">
+                <li><a href="#" class="notice-listB-link">- 더페임로션 상품설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 올리브 리얼스킨케어 설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 이니스프리노세범 설명서</a></li>
+                <li><a href="#" class="notice-listB-link">- 베리떼 느와르 로션 설명서</a></li>
+              </ul>
+            </div>
+            <div class="guide-iconB">
+              <h3 class="guide-tit">특별한 쇼핑몰가이드</h3>
+              <ul class="clear guide-notice-iconB">
+                <li><a href="#" class="notice-listB-link">
+                  <img src="../img/guide_icon01.png" alt="" />
+                  <p class="listB-link-tit">1:1문의하기</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="../img/guide_icon02.png" alt="" />
+                  <p class="listB-link-tit">국내유통&마케팅</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="../img/guide_icon03.png" alt="" />
+                  <p class="listB-link-tit">해외유통 및 OEM</p>
+                </a></li>
+                <li><a href="#" class="notice-listB-link">
+                  <img src="../img/guide_icon04.png" alt="" />
+                  <p class="listB-link-tit">적립금정책</p>
+                </a></li>
+              </ul>
+            </div>
+            <div class="guide-center">
+              <h3 class="guide-tit">CUSTOMER CENTER</h3>
+              <a class="guide-center-tel" href="tel:1234-5678">1234-5678</a>
+              <div class="guide-center-working">
+                평일 : AM 7:00 ~ PM 6:00<br/>
+                토요일 AM 7:00~PM 3:00
+                <p>일요일 / 공휴일 휴무<br/>
+                배송있는 공휴일은 운영</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+          <div class="foot_lef">
+              <ul class="clear foot_linkB">
+                <li>
+                  <a href="#">개인정보보호방침</a>
+                </li>
+                <li>
+                  <a href="#">이용약관</a>
+                </li>
+                <li>
+                  <a href="#">회원약관</a>
+                </li> 
+                <li>
+                  <a href="#">가맹점안내</a>
+                </li> 
+              </ul>
+            <div class="addressB">
+              <div class="f_logo">(주)특별한 쇼핑몰</div>
+              <address>
+                대표 :  TEL : <a href="tel:1833-5002">1833-5002</a>  
+                FAX : 070-8255-1155  
+                주소 : 서울특별시 중구 후암로 110, 서울시티타워 23층
+              </address>
+              <address>
+                사업자등록번호 : 535-86-00058    
+                통신판매업신고번호 : 제2015-서울중구-1005호    
+                정보관리책임자 : 이종우
+              </address>
+              <address>Copyright&copy;2020 특별한쇼핑몰. All Rights Reserved.</address>
+            </div> 
+          </div>
+          <div class="snsBox">
+            <a href="#" class="snsBox-link">
+              <img src="../img/footer_link_icon01.png" alt="" />
+            </a>
+            <a href="#" class="snsBox-link">
+              <img src="../img/footer_link_icon02.png" alt="" />
+            </a>
+            <a href="#" class="snsBox-link">
+              <img src="../img/footer_link_icon03.png" alt="" />
+            </a>
+          </div>  
+          <!--div class="f_family">
+            <select name="" id="" class="f_family_sel">
+              <option value="">FAMILY SITE</option>
+            </select >
+          </div--> 
+      </div>
+    </footer><!-- footer end -->
+  </div><!-- wrap end-->
+  
+  <!-- 팝업창 -->
+  <div class="popup">
+    <div class="popup_cont">
+        <div class="v1_popup_cont">
+        </div>
+    </div>
+  </div>  
+
+  <script>
+    var mySwiper3 = new Swiper('.t-noti-banner', {
+    loop: true,
+    direction: 'vertical',
+    autoplay: {  delay: 3000, }
+    });
+    $('.list-adB-fbLink').click(function(){
+      $(this).toggleClass('on');
+    });
+  </script>
+</body>
+</html>
